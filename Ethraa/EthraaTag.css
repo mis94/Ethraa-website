@@ -1,0 +1,191 @@
+.sitelogo{
+	position: absolute;
+	margin-left: 10px;
+	margin-top: -10px;
+	width: 220px;
+	opacity: 0.4;
+	filter:alpha(opacity=40);
+}
+
+.sitelogo:hover{
+	opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+p{
+	color: #32CD32;
+	text-align: right;
+	font-size: 30px;
+}
+
+h1{
+	color: #32CD32;
+	text-align: right;
+	text-decoration: underline;
+}
+
+.rewaqtext{
+	width: 900px;
+	position: relative;
+	margin-left: 300px;
+	text-align: right;
+}
+
+.knginetext{
+	width: 900px;
+	position: relative;
+	margin-left: 300px;
+	text-align: right;
+}
+
+.kngine{
+	width: 200px;
+	margin-left: 70px;
+	margin-top: -290px;
+}
+
+.electext{
+	width: 900px;
+	position: relative;
+	margin-left: 300px;
+	text-align: right;
+}
+
+.rewaq{
+	width: 130px;
+	margin-left: 100px;
+	margin-top: -290px;
+}
+
+.elec{
+	width: 130px;
+	margin-left: 100px;
+	margin-top: -290px;
+}
+
+.searcher{
+	position: absolute;
+	margin-left: 1150px;
+	margin-top: 90px;
+}
+
+.left{
+	background-image: url(green-floral-designs-on-white-vector-782644.jpg);
+	border: none;
+	height: 600px;
+	width: 200px;
+	margin-top: 20px;
+	opacity: 0.4;
+}
+
+.right{
+	background-image: url(green-floral-designs-on-white-vector-782644.jpg);
+	float: right;
+	border: none;
+	height: 600px;
+	width: 200px;
+	margin-top: 20px;
+	opacity: 0.4;
+}
+
+.left:hover{
+	opacity: 1.0;
+}
+
+.right:hover{
+	opacity: 1.0;
+}
+
+.definition{
+	width: 900px;
+	text-align: right;
+	position: absolute;
+    margin-top: -550px;
+    margin-left: 240px;
+    border: none;
+	font-size: 30px;
+	color: #32CD32;
+}
+
+.corporations{
+	width: 200px;
+	height: 200px;
+	border: 1px solid #90EE90 ;
+	background-color: #90EE90 ;
+	position: absolute;
+	margin-left: 900px;
+	margin-top: -150px;
+	color: #FFFFFF;
+	font-size: 50px;
+	text-align: center;
+
+}
+
+.corporations:hover{
+	box-shadow: 0 0 50px #ccc;
+}
+
+.history{
+	width: 200px;
+	height: 200px;
+	border: 1px solid #90EE90 ;
+	background-color: #90EE90 ;
+	position: absolute;
+	margin-left: 600px;
+	margin-top: -150px;
+	color: #FFFFFF;
+	font-size: 50px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 90px;
+}
+
+.history:hover{
+	box-shadow: 0 0 50px #ccc;
+}
+
+.contribute{
+	width: 200px;
+	height: 200px;
+	border: 1px solid #90EE90 ;
+	background-color: #90EE90 ;
+	position: absolute;
+	margin-left: 300px;
+	margin-top: -150px;
+	color: #FFFFFF;
+	font-size: 50px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 90px;
+}
+
+.contribute:hover{
+	box-shadow: 0 0 50px #ccc;
+}
+
+.footer{
+	height: 60px;
+	float: left;
+	margin-left: 200px;
+	/*-webkit-transition: color 3s; 
+    transition: color 3s;*/
+    /*-webkit-transition:width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    transition:width 2s, height 2s, background-color 2s, transform 2s;*/
+    -webkit-transition:width 3s, height 3s, background-color 3s, -webkit-transform 3s;
+    transition:width 3s, height 3s, background-color 3s, transform 3s;
+}
+
+.footer:hover{
+	/*opacity: 0.4;*/
+	/*width: 80px;*/
+	 background-color: #FFCCCC;
+    width:200px;
+    height:200px;
+    -webkit-transform:rotate(360deg);
+    transform:rotate(360deg);
+}
+
+.copyrights{
+	font-size: 12px;
+	margin-right: 550px;
+}
